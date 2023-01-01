@@ -4,6 +4,9 @@
 *::after {
   box-sizing: border-box;
 }
+.font-lg{
+  font-size: 5rem;
+}
 
 html {
   font-family: sans-serif;
@@ -23,7 +26,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0%;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -31,6 +34,8 @@ body {
   color: #6c757d;
   text-align: left;
   background-color: #ffffff;
+ 
+
 }
  
 a {
@@ -218,44 +223,15 @@ h1,h2,h3,h4,h5,h6,p{
   left: 30px;
 }
 
-/* ====================== Testimonial ================*/
-.testimonial-carousel .text-center{
-  background-color: #eaecf0d0;
-  border-radius: 20px;
-  margin: 20px;
-
-}
-.testimonial-carousel .text-center h4{
-
-}
-
-.testimonial-carousel .owl-dots {
-  margin-top: 25px;
-  text-align: center;
-}
-
-.testimonial-carousel .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 10px;
-  background: #dddddd;
-}
-
-.testimonial-carousel .owl-dot.active {
-  background: #0BCEAF;
-}
 
 
 
-/* ========================== Contact Us ========================*/
 
-.contact-form .help-block ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
+
+
+
+
+
 
 
 /*====================== Back to buttom ==================*/
